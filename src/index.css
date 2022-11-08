@@ -15,18 +15,3 @@
 #image1 {
   display: none;
 }
-
-#warpButton {
-  padding: 10px;
-  font-size: 40px;
-  margin: 20px;
-  font-family: "Bangers", cursive;
-  color: white;
-  background-color: black;
-}
-
-#warpButton:hover {
-  color: black;
-  background-color: white;
-  cursor: pointer;
-}
