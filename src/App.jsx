@@ -5,7 +5,6 @@ function App() {
   //(useRef)
   const canvas1Ref = useRef(null);
   const image1Ref = useRef(null);
-  const warpButtonRef = useRef(null);
   //(useEffect)
   useEffect(() => {
     const canvas = canvas1Ref.current; //Select the canvas
@@ -131,7 +130,7 @@ function App() {
   //------------Component------------
   return (
     <>
-      <canvas ref={canvas1Ref} id="canvas1"></canvas>
+        <canvas ref={canvas1Ref} id="canvas1"></canvas>
       <img
         ref={image1Ref}
         id="image1"
